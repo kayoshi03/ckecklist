@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.scss">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+   <div class="checkBar">
+
+     <div class="progressbar">
+       <svg class="progressbar__svg">
+         <circle cx="30" cy="30" r="29" class="progressbar__svg-circle circle"> </circle>
+       </svg>
+       <svg class="progressbar__svg__bg">
+         <circle cx="30" cy="30" r="29" class="progressbar__svg-circle-bg circle-bg"> </circle>
+       </svg>
+       <span class="progressbar__text">0/7</span>
+     </div>
+
+     <div class="content">
+        <h2>Чеклист</h2>
+         <p class="progress">Выполнено:<span> 0 </span>из<span> 7 </span>действий</p>
+         <p class="tasks">Следующее действие: <span>Созвониться с клиентом до 23.05.24 12:00</span></p>
+     </div>
+
+     <button class="btn">Открыть чеклист</button>
+   </div>
+  </body>
+</html>
